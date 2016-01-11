@@ -18,7 +18,7 @@
 			@yield('content')
 		</div>
 		<blockquote style="margin-top:100px">
-			<p><a href="http://rundef.com/building-ajax-web-applications-laravel-backbone-requirejs" target="_blank">Building AJAX web applications with Laravel 5, Backbone and RequireJS</a></p>
+			<p><a href="http://rundef.com/building-ajax-web-applications-laravel-backbone-requirejs" target="_blank" data-bypass>Building AJAX web applications with Laravel 5, Backbone and RequireJS</a></p>
 		</blockquote>
 	</div>
 </body>
