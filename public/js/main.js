@@ -1,4 +1,7 @@
 var rootPath = document.querySelector('body').dataset.rooturl.replace('://', '');
+if(!rootPath.endsWith('/')) {
+  rootPath += '/';
+}
 var index = rootPath.indexOf('/');
 rootPath = (index !== -1 && index+1 < rootPath.length) ? rootPath.substr(index) : rootPath = '/';
 
