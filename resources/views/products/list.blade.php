@@ -26,7 +26,7 @@
 						<form method="POST" class="action-delete" action="{{ route('product.destroy', ['id' => $product->id]) }}" style="display:inline;">
 							<input type="hidden" name="_method" value="DELETE" />
 							{{ csrf_field() }}
-							<button type="submit" title="Delete the product" class="glyphicon glyphicon-trash" style="color:red;border:0"></button>
+							<button type="submit" title="Delete the product" class="glyphicon glyphicon-trash" style="color:red;border:0;background-color:transparent"></button>
 						</form>
 					</td>
 				</tr>
