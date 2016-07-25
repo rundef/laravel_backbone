@@ -16,7 +16,7 @@ require.config({
   // Set common library paths
   paths: {
     jquery: 'node_modules/jquery/dist/jquery.min',
-    lodash: 'node_modules/lodash/index',
+    lodash: 'node_modules/lodash/lodash.min',
     backbone: 'node_modules/backbone/backbone-min',
     toastr: 'node_modules/toastr/build/toastr.min'
   },
